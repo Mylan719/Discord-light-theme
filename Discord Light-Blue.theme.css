@@ -1,0 +1,231 @@
+//META{"name":"Discord Light-Blue","description":"Supports all resolutions, light theme combined with shades of blue","author":"den","version":"1.0"}*//{}
+
+.guild-header header{
+    background: #2c3e50;
+}
+
+
+.channel-notices .channel-notice.invite{
+    background-color: #2c3e50;
+}
+
+.channel-notices .channel-notice .message .btn{
+    background-color: #2c3e50;
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+
+.guild-channels{
+    background: #2c3e50;
+}
+
+.account{
+    background: #2c3e50;
+}
+
+.account .btn {
+    background: #2c3e50;
+}
+
+#voice-connection{
+    background-color:#722;
+}
+
+#voice-connection .btn{
+    background-color:#722;
+}
+
+.guilds-wrapper{
+    background:#eee;
+    
+}
+
+.guilds-wrapper .guilds{
+    padding-left:0; 
+}
+
+
+.guilds-wrapper .guilds .guild{
+    opacity:0.6;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 5px; 
+}
+
+.guilds-wrapper .guilds .friends-online{
+    color:#333;
+    padding-left: 15px;
+}
+
+.guilds-wrapper .guild-separator{
+    padding-left: 15px;
+}
+
+.guilds-wrapper .guilds .guild.guilds-add
+{
+        padding-left: 0px;
+        margin-left: 15px;
+}
+
+.guilds-wrapper .guilds .btn-download-apps{
+    margin-left: 0;
+}
+
+.guilds-wrapper .guilds .guild.unread:before
+{
+        background: #2980b9;
+        opacity:1.0;
+        z-index: 9999;
+        left:-5px;
+}
+
+.guilds-wrapper .guilds .guild.selected{
+   background:#2980b9;
+   opacity:1.0;
+}
+
+.guilds-wrapper .guilds .guild.active{
+    background:#2980b9;
+   opacity:1.0;
+}
+
+.guilds-wrapper .guilds .guild.active:before{
+    content:none;
+}
+
+.guilds-wrapper .guilds .guild.selected:before{
+    content:none;
+}
+
+.chat .content{
+    background: #d4e5fa;
+}
+
+.chat>.title-wrap{
+    background:#2980b9;
+    color: #fff;
+    border-bottom: 2px solid #2c3e50;
+}
+
+.chat>.title-wrap>.title .channel-name {
+    color: #fff;
+}
+
+.chat>.title-wrap>.title .channel-name:before
+{
+    color:#ccc;
+}
+
+/*Editable channel name*/
+.chat>.title-wrap>.title.channel-group-dm .channel-name .input-autosize-inner .input-autosize-input{
+    color:#fff;
+}
+
+.chat>.title-wrap>.title.channel-group-dm .channel-name:hover .input-autosize-inner .input-autosize-input{
+    color:#4f545c;
+}
+
+.channel-members{
+    background: #2c3e50;
+}
+
+.message-group .comment{
+    border-radius: 10px;
+    background: #fff;
+    width: auto;
+    padding: 10px;
+}
+
+.message-group .comment{
+    position: relative;
+}
+
+.message-group .comment:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    top: 0px;
+    content: "";
+    border: 25px solid;
+    border-color: #fff #fff transparent transparent;
+    z-index: -1;
+}
+
+.message-group .comment .markup{
+    color: #000;
+    font-size: 18px;
+}
+
+.message-group .comment .user-name
+{
+    font-weight: bolder;
+}
+
+.guild-channels-wrapper {
+    background: #2c3e50;
+}
+
+.channels-wrap .private-channels{
+    background: #fff;
+}
+
+.channels-wrap .private-channels .search-bar{
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow:none;
+}
+
+.search-bar-icon .icon.visible{
+    opacity: .6;
+}
+
+.channels-wrap .private-channels .channel .channel-name
+{
+    color:black;
+    opacity: 1.0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.channels-wrap .private-channels .channel.selected .channel-name
+{
+    color:white;   
+}
+
+.private-channels .channel .channel-activity{
+    color:#ccc;
+}
+
+.channel.btn-friends.selected{
+    background:#2980b9;
+}
+
+.channel-name{
+    opacity:1.0;
+}
+
+.guild-channels .channel.selected{
+    background:#2980b9;
+}
+
+.channel.selected.private{
+    background:#2980b9;
+}
+
+.channels-wrap .private-channels .channel.selected:hover
+{
+    background-color:#2980b9;
+}
+
+.channels-wrap .private-channels .channel:hover
+{
+    background:#eee;   
+}
+
+.channel-textarea-inner textarea{
+    color:#000;
+    font-size: 16;
+}
